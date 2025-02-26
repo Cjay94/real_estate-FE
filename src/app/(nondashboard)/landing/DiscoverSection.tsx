@@ -9,7 +9,6 @@ const containerVariants = {
     visible: {
         opacity: 1,
         transition: {
-            duration: 0.5,
             staggerChildren: 0.4,
         }
     }
@@ -25,7 +24,7 @@ const DiscoverSection = () => {
         <motion.section
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.8 }}
+            viewport={{ once: true, amount: 0.5 }}
             variants={containerVariants}
             className="py-12 bg-white mb-16"
         >
