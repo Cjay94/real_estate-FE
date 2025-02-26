@@ -1,3 +1,11 @@
+import {
+  faFacebook,
+  faInstagram,
+  faXTwitter,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+
 export const FeatureItems = [
   {
     imageSrc: "/landing-search1.png",
@@ -44,4 +52,46 @@ export const DiscoverItems = [
     description:
       "Move into your new rental property and start enjoying your dream home.",
   },
+];
+
+export const FooterLinks = [
+  { linkText: "About Us", linkHref: "/about" },
+  { linkText: "Contact Us", linkHref: "/contact" },
+  { linkText: "FAQ", linkHref: "/faq" },
+  { linkText: "Terms", linkHref: "/terms" },
+  { linkText: "Privacy", linkHref: "/privacy" },
+];
+
+export const FooterSocialLinks = [
+  {
+    linkText: "Facebook",
+    linkHref: "https://www.facebook.com/",
+    icon: faFacebook,
+  },
+  {
+    linkText: "Instagram",
+    linkHref: "https://www.instagram.com/",
+    icon: faInstagram,
+  },
+  {
+    linkText: "Twitter",
+    linkHref: "https://x.com/",
+    icon: faXTwitter,
+  },
+  {
+    linkText: "Linkedin",
+    linkHref: "https://www.linkedin.com/",
+    icon: faLinkedin,
+  },
+  {
+    linkText: "Youtube",
+    linkHref: "https://www.youtube.com/",
+    icon: faYoutube,
+  },
+];
+
+export const FooterSubLinks = [
+  { linkText: "Privacy Policy", linkHref: "/privacy" },
+  { linkText: "Terms of Service", linkHref: "/terms" },
+  { linkText: "Cookie Policy", linkHref: "/cookies" },
 ];
