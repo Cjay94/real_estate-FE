@@ -38,7 +38,7 @@ const Navbar = () => {
                     Rent easy, live happy.
                 </p>
                 <div className="flex items-center gap-5">
-                    <Link href="/sign-in">
+                    <Link href="/signin">
                         <Button
                             variant="outline"
                             className="text-white border-white bg-transparent hover:bg-white hover:text-primary-700 rounded-lg"
@@ -46,7 +46,7 @@ const Navbar = () => {
                             Sign In
                         </Button>
                     </Link>
-                    <Link href="/sign-up">
+                    <Link href="/signup">
                         <Button
                             variant="secondary"
                             className="text-white bg-secondary-600 hover:bg-white hover:text-primary-700 rounded-lg"
