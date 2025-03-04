@@ -97,43 +97,43 @@ export const FooterSubLinks = [
   { linkText: "Cookie Policy", linkHref: "/cookies" },
 ];
 
-const formFields = {
-  signIn: {
-    username: {
-      placeholder: "",
-      label: "",
-      isRequired: true,
-    },
-    password: {
-      placeholder: "",
-      label: "",
-      isRequired: true,
-    },
-  },
-  signUp: {
-    username: {
-      order: 1,
-      placeholder: "",
-      label: "",
-      isRequired: true,
-    },
-    email: {
-      order: 2,
-      placeholder: "",
-      label: "",
-      isRequired: true,
-    },
-    password: {
-      order: 3,
-      placeholder: "",
-      label: "",
-      isRequired: true,
-    },
-    confirm_password: {
-      order: 4,
-      placeholder: "",
-      label: "",
-      isRequired: true,
-    },
-  },
-};
+// const formFields = {
+//   signIn: {
+//     username: {
+//       placeholder: "",
+//       label: "",
+//       isRequired: true,
+//     },
+//     password: {
+//       placeholder: "",
+//       label: "",
+//       isRequired: true,
+//     },
+//   },
+//   signUp: {
+//     username: {
+//       order: 1,
+//       placeholder: "",
+//       label: "",
+//       isRequired: true,
+//     },
+//     email: {
+//       order: 2,
+//       placeholder: "",
+//       label: "",
+//       isRequired: true,
+//     },
+//     password: {
+//       order: 3,
+//       placeholder: "",
+//       label: "",
+//       isRequired: true,
+//     },
+//     confirm_password: {
+//       order: 4,
+//       placeholder: "",
+//       label: "",
+//       isRequired: true,
+//     },
+//   },
+// };
